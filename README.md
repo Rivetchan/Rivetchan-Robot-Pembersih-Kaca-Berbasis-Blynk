@@ -62,9 +62,7 @@ Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TI
 
 ## 🎥 Demo Video (YouTube)
 
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gbjV_paw4iY" title="Demo Robot Pembersih Kaca Berbasis Blynk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+[![Demo Robot Pembersih Kaca Berbasis Blynk](https://img.youtube.com/vi/gbjV_paw4iY/0.jpg)](https://youtu.be/gbjV_paw4iY)
 
 ---
 
