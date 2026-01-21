@@ -133,6 +133,6 @@ Proyek ini masih dapat dikembangkan lebih lanjut dengan:
 
 ## 👥 Tim Pengembang
 
-**TIM PBL (2) – AKSIKALOKA**
+**TIM PBL (2) GCR – Glass Cleaning Robot**
 
 Robot Pembersih Kaca Berbasis Blynk dibuat sebagai bagian dari Project Based Learning (PBL) dengan tujuan mengimplementasikan teknologi IoT pada sistem robotika.
