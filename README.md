@@ -55,7 +55,7 @@ Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TI
 ## 📱 Tampilan Aplikasi Blynk
 
 <p align="center">
-  <img src="css/images/blynk.jpeg" width="300"/>
+  <img src="css/images/blynk.jpg" width="300"/>
 </p>
 
 ---
@@ -63,22 +63,76 @@ Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TI
 ## 🎥 Demo Video (YouTube)
 
 <p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gbjV_paw4iY?rel=0&modestbranding=1&showinfo=0&autoplay=0" title="Demo Robot Pembersih Kaca Berbasis Blynk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gbjV_paw4iY" title="Demo Robot Pembersih Kaca Berbasis Blynk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 ---
 
 ## 🔌 Cara Kerja Sistem
 
-1. Robot dinyalakan dan terhubung ke WiFi
-2. ESP8266 terkoneksi ke **server Blynk**
-3. Pengguna mengirim perintah melalui aplikasi Blynk
-4. Mikrokontroler memproses perintah
-5. Motor dan pompa air bekerja sesuai perintah
-6. Robot membersihkan kaca
+1. Robot dinyalakan menggunakan sumber daya baterai.
+2. ESP8266 melakukan inisialisasi sistem dan mencoba terhubung ke jaringan WiFi yang telah dikonfigurasikan.
+3. Setelah terhubung ke WiFi, ESP8266 terkoneksi dengan **Blynk Cloud Server** menggunakan *Auth Token*.
+4. Aplikasi Blynk pada smartphone mengirimkan perintah kontrol (maju, mundur, semprot air, motor pembersih).
+5. Mikrokontroler memproses data dari Blynk dan mengaktifkan output pin sesuai perintah.
+6. Driver motor (L298N/L293D) mengatur arah dan kecepatan motor DC.
+7. Pompa air aktif untuk menyemprot cairan pembersih ke permukaan kaca.
+8. Robot bergerak dan membersihkan kaca secara bertahap.
+9. Status sistem dapat dimonitor secara real-time melalui aplikasi Blynk.
 
 ---
 
 ## ⚙️ Instalasi & Penggunaan
 
-> 📌 *Bagian perintah/command dihapus sesuai permintaan. Silakan tambahkan langkah instalasi sesuai kebutuhan proyek (misalnya upload sketch via Arduino IDE).*
+### Persiapan Perangkat
+
+* Pastikan seluruh komponen telah terpasang dengan benar sesuai rangkaian.
+* Pastikan baterai dalam kondisi penuh.
+* Gunakan jaringan WiFi yang stabil.
+
+### Konfigurasi Blynk
+
+* Buat template project di aplikasi Blynk.
+* Atur widget tombol untuk:
+
+  * Gerak motor (maju/mundur/kiri/kanan)
+  * Motor pembersih
+  * Pompa air
+* Sesuaikan *Virtual Pin* dengan program di ESP8266.
+
+### Pengoperasian Robot
+
+1. Nyalakan robot.
+2. Buka aplikasi Blynk di smartphone.
+3. Pastikan status koneksi **ONLINE**.
+4. Gunakan tombol kontrol untuk menjalankan robot.
+5. Aktifkan pompa air dan motor pembersih sesuai kebutuhan.
+6. Setelah selesai, matikan robot dan bersihkan lap pembersih.
+
+---
+
+## 🛡️ Keamanan & Perawatan
+
+* Jangan gunakan robot pada kaca retak atau rapuh.
+* Pastikan kabel dan konektor terlindung dari air.
+* Bersihkan lap setelah pemakaian.
+* Simpan robot di tempat kering.
+
+---
+
+## 📌 Catatan Pengembangan
+
+Proyek ini masih dapat dikembangkan lebih lanjut dengan:
+
+* Mode otomatis berbasis sensor
+* Sensor jarak / sensor batas
+* Kamera untuk monitoring visual
+* Logging data ke cloud
+
+---
+
+## 👥 Tim Pengembang
+
+**TIM PBL (2) – AKSIKALOKA**
+
+Robot Pembersih Kaca Berbasis Blynk dibuat sebagai bagian dari Project Based Learning (PBL) dengan tujuan mengimplementasikan teknologi IoT pada sistem robotika.
