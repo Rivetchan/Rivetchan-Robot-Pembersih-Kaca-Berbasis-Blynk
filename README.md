@@ -2,7 +2,7 @@
 
 ### 🌐 Smart Window Cleaning Robot with IoT Control
 
-📌 **TIM PBL (2) – AKSIKALOKA**
+📌 **TIM PBL (2) GCR – Glass Cleaning Robot**
 📁 Repository:
 🔗 [https://github.com/Rivetchan/Robot-Pembersih-Kaca-Berbasis-Blynk](https://github.com/Rivetchan/Robot-Pembersih-Kaca-Berbasis-Blynk)
 
@@ -23,7 +23,7 @@ Robot ini dikendalikan melalui aplikasi **Blynk** pada smartphone, sehingga peng
 * Mengatur sistem semprot air
 * Memantau status robot secara real-time
 
-Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TIM AKSIKALOKA**.
+Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TIM 2 GCR**.
 
 ---
 
