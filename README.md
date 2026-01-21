@@ -8,7 +8,7 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWt6ZDkyNWt1ZnFtZnRtdGV1ZGkzeGZjbW92Nm4zd2N3MWtzY3lzOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5GrNOi29Ol3WmhwlIj/giphy.gif" width="300"/>
 </p>
 
 ## 📖 Deskripsi Proyek
