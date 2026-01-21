@@ -63,8 +63,9 @@ Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TI
 ## 🎥 Demo Video (YouTube)
 
 <p align="center" width="100%">
-  <video src="css/video/Demo Building Window Cleaner Robot.mp4" width="80%" controls></video>
+  <video src="https://github.com/user-attachments/assets/df89376b-e38d-452d-aa1f-45bb53452fe2" width="80%" controls></video>
 </p>
+
 
 ---
 
