@@ -55,19 +55,14 @@ Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TI
 ## 📱 Tampilan Aplikasi Blynk
 
 <p align="center">
-  <img src="css/images/blynk.jpeg" width="300"/>
+  <img src="css/images/blynk.jpg" width="300"/>
 </p>
 
 ---
 
-## ## 🎥 Demo Video (YouTube)
-
+## 🎥 Demo Video (YouTube)
 <p align="center">
-  <a href="https://youtu.be/gbjV_paw4iY">https://youtu.be/gbjV_paw4iY</a>
-</p>
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gbjV_paw4iY" title="Demo Robot Pembersih Kaca Berbasis Blynk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  https://youtu.be/gbjV_paw4iY
 </p>
 
 ---
