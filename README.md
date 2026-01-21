@@ -61,9 +61,8 @@ Proyek ini dibuat sebagai bagian dari **Project Based Learning (PBL)** oleh **TI
 ---
 
 ## 🎥 Demo Video (YouTube)
-<p align="center">
-  https://youtu.be/gbjV_paw4iY
-</p>
+
+<iframe width="560" height="315" src="https://youtu.be/gbjV_paw4iY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
